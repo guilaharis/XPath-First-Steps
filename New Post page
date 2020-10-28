@@ -1,0 +1,24 @@
+New Post page
+
+- "Drop an image here"- 
+//label[text()='Drop an Image here']
+
+- прозорец за качване на снимка- 
+//div[contains(@class, 'uploadfilecontainer')]
+
+- бутон "browse" - 
+//button[contains (@class, 'browse btn btn-primary input-lg')]
+
+- X за затваряне - 
+//i[contains (@class, 'fas fa-times')]
+
+- поле за caption-
+//input[@formcontrolname ='caption']
+
+- бутон за public post- 
+//label[@for ='customSwitch2']
+
+- бутон create post - 
+//button[@type= 'submit']
+
+- 
